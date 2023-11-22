@@ -208,3 +208,5 @@ result = np.column_stack((unique, counts))
 formatstring = "{: >4} | {: ^4}"
 for paare in result:
     print(formatstring.format(paare[0],paare[1]))
+
+#Ende
