@@ -68,14 +68,14 @@ np.add(my_np_array,array2)      #Matrizen addieren
 #| negative   | Numerical negative, element-wise                              |
 #| positive   | Numerical positive, element-wise                              |
 #| mod        | Return, element-wise remainder of division                    |
-#| absolute   | Calculate the absolute value, element-wise                    |
-#| fabs       | Compute the absolute values, element-wise                     |
-#| sign       | Returns an, element-wise indication of the sign of a number   |
-#| exp        | Calculate the exponential of all elements in the input array  |
+#| absolute   | Calculate the absolute value, element-wise                    | Gibt absolute Zahl aus (Immer positiv (5 bleibt 5, -5 wird 5))
+#| fabs       | Compute the absolute values, element-wise                     | Umwandlung in float
+#| sign       | Returns an, element-wise indication of the sign of a number   | The sign function returns 1 for positive numbers, -1 for negative numbers, and 0 for zero
+#| exp        | Calculate the exponential of all elements in the input array  | e hoch x
 #| log        | Natural logarithm, element-wise                               |
-#| sqrt       | Return the non-negative square-root of an array, element-wise |
-#| square     | Return the, element-wise square of the input                  |
-#| reciprocal | Return the reciprocal of the argument, element-wise           |
+#| sqrt       | Return the non-negative square-root of an array, element-wise | Wurzel von x
+#| square     | Return the, element-wise square of the input                  | x hoch x
+#| reciprocal | Return the reciprocal of the argument, element-wise           | 1 / x
 #| gcd        | Returns the greatest common divisor of \|x1\| and \|x2\|      |
 #| lcm        | Returns the lowest common multiple of \|x1\| and \|x2\|       |
 
